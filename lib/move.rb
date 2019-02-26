@@ -13,7 +13,11 @@ def input_to_index(user_input)
 end
 
 
-
+#This updates the board with a player's token
+def move(board, index, character = "X") 
+  board[index] = character
+  return board
+end
 
 
 
